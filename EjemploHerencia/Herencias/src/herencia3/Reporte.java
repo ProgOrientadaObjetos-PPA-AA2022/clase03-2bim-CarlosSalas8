@@ -44,5 +44,11 @@ public class Reporte {
     public String obtenerCiclo() {
         return ciclo;
     }
+    public String toString(){
+        String cadena = String.format("%s\n%Carrera: %s\nCiclo:%s\n", nombre,carrera,ciclo);
+        return cadena;
+        
+    
+    }
 
 }
